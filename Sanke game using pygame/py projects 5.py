@@ -1,5 +1,3 @@
-# from video 24 Mor apple and snake functions
-
 import pygame
 import time
 import random
@@ -197,7 +195,7 @@ def gameLoop():
         lead_y += lead_y_change    
 
                 
-        gameDisplay.fill(black) #fill the desktop background with the color passed as the argument 
+        gameDisplay.fill(black)   #fill the desktop background with the color passed as the argument 
         #pygame.draw.rect(gameDisplay, red , [randAppleX, randAppleY, AppleThickness, AppleThickness])
         gameDisplay.blit(appleimg , (randAppleX, randAppleY))
        
